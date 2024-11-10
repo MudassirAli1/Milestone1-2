@@ -1,0 +1,132 @@
+*{
+    margin:0px;
+    padding: 0px;
+    list-style: none;
+    font-family: sans-serif , 'Times New Roman', Times, serif;
+}
+
+.container{
+    border: 2px solid black;
+    height: 60%;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    margin:50px 100px 80px 270px;
+    z-index: 0;
+    border-radius: 25px;
+    display: flex;
+}
+
+.left{
+    background-color: rgb(1, 31, 82);
+    width: 40%;
+    z-index: 1;
+    height: 88%;
+}
+
+.right{
+    background-color: white;
+    z-index: 1;
+    margin-bottom: 100px;
+    position: relative;
+    height: 100%;
+    width: 70%;
+    bottom: 88.6%;
+    left:30%
+}   
+
+.navbar{
+    padding: 20px 0 20px 0;
+ background-color: rgb(3, 1, 114);
+ margin-left: 30;
+}
+
+.navbar ul{
+    align-items: center;
+    display: flex;
+    padding:0%;
+    list-style: none;
+    gap: 50px;;
+}
+
+.navbar a{
+ color:rgb(255, 255, 255);
+ text-decoration: none;
+ font-weight: bolder;
+ border-radius: 5px;
+ margin-left: 50px;
+ padding:10px 15px ;
+ transition: background-color 0.3s , color 0.3s;
+}
+
+.navbar a:hover{
+    background-color: rgb(0, 66, 207);
+    color: white;
+}
+img{
+    height: 200px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50%; 
+    margin: 20px 0 0 50px;  
+}
+ 
+#Personal-info{
+    margin:40px 80px 0 0 ;
+    color: white;
+}
+#Personal-info h2{
+  margin: 10px 0 10px 8px;
+  font-size: 1.4em;
+  text-decoration:underline;
+}
+#Personal-info h3{
+margin:30px 0 20px 60px;
+}
+#Address{
+    margin:30px 0 50px 7px ;
+}
+#Personal-info p a{
+    text-decoration: none;
+    color: #ffffff;
+    margin:20px 0 5px 35px ;
+}
+#Education {
+    color: #ffffff;
+    margin:0 80px 0 0;
+}
+#Education h2{
+    margin:40px 0 10px 55px ;
+    text-decoration: underline;
+}
+.SSC p{
+    margin:20px 0 10px 55px ;
+}
+.HSC{
+    margin-top: 40px;
+}
+.HSC p{
+    color: #ffffff;
+    margin:20px 0 10px 55px ;
+}
+
+#skills{
+    color: #ffffff;
+}
+
+#skills h2{
+    margin:50px 0 10px 55px;
+    text-decoration: underline;
+}
+#skills li{
+    margin:20px 0 10px 55px
+}
+
+#name{
+    background-color: rgba(216, 216, 216,0.5);
+    margin:60px 60px 0 30px;
+    padding:50px 0 0 40px;
+    font-size: 2.2em;
+    height:150px;
+    width: 480px;
+    display: inline-block;
+    
+}
